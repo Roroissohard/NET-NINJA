@@ -1,24 +1,18 @@
-let ninjas = ['shaun', 'ryu', 'chun-li'];
+// if statements
+// const age = 25
 
-// ninjas [1] = 'ken';
+// if(age > 20){
+// console.log('you are over 20 years old')
+// }
 
-// console.log(ninjas[1]);
+// const ninjas = ['shaun', 'ryu', 'chun-li', 'yoshi'];
 
-// let ages = [20,25,30,35];
+// if(ninjas.length > 4){
+// console.log("that's a lot of ninjas");
+// }
 
-// console. log (ages [2]) ;
+const password = 'p@ss'
 
-// let random = ['shaun', 'crystal', 30, 20);
-// console.log(random) ;
-
-//console.log(ninjas.length);
-
-// array methods
-
-//let result = ninjas.join('-');
-//let result = ninjas.indexOf('chun-11');
-//let result = ninjas.concat(['ken', 'crystal']):
-let result = ninjas.push('ken');
-result = ninjas.pop();
-
-console.log(result);
+if(password.length >= 8){
+    console.log('that password is long enough')
+}
